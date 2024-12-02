@@ -1,0 +1,36 @@
+/* Media query for devices with a max width of 768px (Mobile/tab devices) */
+
+@media screen and (max-width: 768px) {
+    .cart-table{
+        width: 50%;
+
+    }
+    
+}
+
+/* Media query for devices with a max width of 479px (Mobile devices) */
+
+@media screen and (max-width: 479px) {
+    .cart-table{
+        width: 70%; /* Increase width of table on mobile */
+    }
+
+    #popular-text{
+        height: 25px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .item-quanty{
+        font-size: 15px; /* Smaller paragraph text on mobile */
+    }
+
+    .standard-price{
+        font-size: 10px; 
+        
+    }
+
+    .discount-span{
+        font-size: 14px;
+    }
+}

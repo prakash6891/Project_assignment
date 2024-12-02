@@ -1,0 +1,145 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,Arial, Helvetica;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    margin-top: 40px;
+}
+main{
+    padding: 6px;
+}
+
+section{
+    position: relative;
+    margin-top: 30px;
+    height: 100px;
+    border: 1px solid black;
+    
+}
+
+#popular-text{
+    display: flex;
+    position: absolute;
+    background-color: #f05159;
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    right: 1px;
+    top: -7px;
+}
+
+.inline-hr {
+    flex-grow: 1; /* Allow the hr to grow and take available space */
+    border: none; /* Remove default border */
+    border-top: 1px solid black; 
+    margin: 10px; /* Space between text and lines */
+}
+
+.inline-span{
+    color:#f05159;
+    font-size: large;
+    font-weight: bold;
+}
+
+ 
+.inline-card-box{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    
+}
+
+.discount-span{
+    display: inline-block;
+    font-weight: normal;
+    background-color: #f05159;
+    color: white;
+    width: 70px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.item-quanty{
+    font-weight: bold;
+}
+
+.standard-price{
+    font-size: 14px; 
+    text-decoration: line-through;
+    color: grey;
+}
+
+.container{
+    display: flex; 
+    gap: 20px;
+}
+
+.item-size{
+    display: none;
+    margin-left: 70px;
+}
+
+.cart-table{
+    width: 30%; 
+    border-spacing: 0 15px
+}
+
+th{
+    text-align: left; 
+    font-weight: normal; 
+    font-size: small;
+}
+
+#product-item{
+    height: 25px;
+    width: 70px;
+}
+
+input[type="radio"] {
+    accent-color: #f05159; /* Change to your desired color */
+}
+
+#btn-add{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    border: none;
+    background-color: #f05159;
+    color: white;
+    font-size: 18px;
+}
+
+#delivery-section{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 25px
+}
+
+#freeDeliveryText{
+    color: #f05159; 
+    font-weight: bold;
+}
+
+#totalAmountText{
+    font-weight: bold;
+}
+
+
+
+
+
+
